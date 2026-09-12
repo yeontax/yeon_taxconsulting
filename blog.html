@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>세무이슈 전체보기 | 연택스컨설팅</title>
+<meta name="description" content="개정세법, 부동산, 자영업자, 법인사업자 카테고리별 세무 이슈를 모아봤습니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="logo"><span>연</span>택스컨설팅</a>
+    <nav class="main-nav">
+      <a href="index.html">홈</a>
+      <a href="blog.html" class="active">세무이슈</a>
+      <a href="blog.html?cat=tax">개정세법</a>
+      <a href="blog.html?cat=realestate">부동산</a>
+      <a href="blog.html?cat=selfemployed">자영업자</a>
+      <a href="blog.html?cat=corp">법인사업자</a>
+      <a href="contact.html">상담문의</a>
+    </nav>
+    <a href="contact.html" class="header-cta">무료 상담 신청</a>
+    <button class="nav-toggle" aria-label="메뉴 열기">☰</button>
+  </div>
+</header>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>세무이슈 전체보기</h2>
+        <p>궁금한 카테고리를 눌러 필터링해보세요.</p>
+      </div>
+    </div>
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">전체</button>
+      <button class="filter-tab" data-filter="tax">개정세법</button>
+      <button class="filter-tab" data-filter="realestate">부동산</button>
+      <button class="filter-tab" data-filter="selfemployed">자영업자</button>
+      <button class="filter-tab" data-filter="corp">법인사업자</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="post-grid">
+      <a class="post-card" href="posts/post-1.html" data-category="tax">
+        <div class="post-thumb thumb-tax">📜</div>
+        <div class="post-body">
+          <span class="tag tag-tax">개정세법</span>
+          <h3>2026년 종합소득세, 이것만은 꼭 확인하세요</h3>
+          <p class="excerpt">해마다 바뀌는 소득공제·세액공제 항목, 미리 알아두면 5월 신고가 훨씬 쉬워집니다.</p>
+          <div class="post-meta"><span>김연균 세무사</span><span>2026.09.01</span></div>
+        </div>
+      </a>
+      <a class="post-card" href="posts/post-2.html" data-category="realestate">
+        <div class="post-thumb thumb-realestate">🏠</div>
+        <div class="post-body">
+          <span class="tag tag-realestate">부동산</span>
+          <h3>1세대 1주택 양도소득세 비과세, 헷갈리는 요건 총정리</h3>
+          <p class="excerpt">보유기간, 거주기간, 고가주택 기준까지 — 집 팔기 전 꼭 확인해야 할 체크리스트.</p>
+          <div class="post-meta"><span>김연균 세무사</span><span>2026.09.05</span></div>
+        </div>
+      </a>
+      <a class="post-card" href="posts/post-3.html" data-category="selfemployed">
+        <div class="post-thumb thumb-selfemployed">🧾</div>
+        <div class="post-body">
+          <span class="tag tag-selfemployed">자영업자</span>
+          <h3>사장님이라면 꼭 챙겨야 할 경비처리 절세 노하우</h3>
+          <p class="excerpt">놓치기 쉬운 경비 항목부터 증빙 관리 방법까지, 종합소득세 부담을 줄이는 실전 팁.</p>
+          <div class="post-meta"><span>김연균 세무사</span><span>2026.09.09</span></div>
+        </div>
+      </a>
+
+      <!-- 앞으로 새 글이 추가되면 이 자리에 카드를 하나씩 늘려주세요.
+           data-category 값은 tax / realestate / selfemployed / corp 중 하나로 지정합니다. -->
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4 style="color:#fff; font-size:20px;"><span style="color:var(--accent);">연</span>택스컨설팅</h4>
+        <p>김연균 세무사가 연(緣)을 잇는 마음으로, 어려운 세무 이슈를 쉽고 재미있게 전해드립니다.</p>
+      </div>
+      <div>
+        <h4>바로가기</h4>
+        <ul>
+          <li><a href="blog.html">세무이슈</a></li>
+          <li><a href="contact.html">상담문의</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>문의</h4>
+        <ul>
+          <li>전화: 02-000-0000</li>
+          <li>이메일: contact@yeontax.example</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 연택스컨설팅. 본 사이트의 콘텐츠는 일반적인 세무 정보 제공을 목적으로 하며, 개별 세무 상담을 대체하지 않습니다.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  // URL의 ?cat= 파라미터로 들어오면 해당 필터를 자동 적용
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var cat = params.get("cat");
+    if (cat) {
+      var tab = document.querySelector('.filter-tab[data-filter="' + cat + '"]');
+      if (tab) tab.click();
+    }
+  })();
+</script>
+</body>
+</html>
